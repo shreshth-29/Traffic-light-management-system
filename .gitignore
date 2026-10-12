@@ -1,0 +1,31 @@
+# Model weights (download yolov5s.pt or train your own, see README)
+*.pt
+*.pth
+*.onnx
+
+# Training and detection outputs
+runs/
+yolov5/runs/
+wandb/
+
+# Snapshot handed to the detector each cycle (copied from data/snapshots/)
+data/current/
+
+# Image and video outputs. Sample input snapshots under data/snapshots/ are allowed.
+*.jpg
+*.jpeg
+*.png
+*.mp4
+!data/snapshots/*.jpg
+!data/snapshots/*.jpeg
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

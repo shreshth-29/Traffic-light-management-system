@@ -1,0 +1,5 @@
+# Dependencies of the vendored ultralytics/yolov5 copy (torch, torchvision, opencv-python, numpy, PyYAML, ...).
+-r yolov5/requirements.txt
+
+# The scripts in src/ only use the packages above plus the Python standard library
+# (argparse, shutil, pathlib, time).
