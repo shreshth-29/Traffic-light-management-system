@@ -1,5 +1,7 @@
 # Traffic Light Management System
 
+Repository created in May 2021. Reorganized and cleaned up in October 2026 (file structure and README only, the code is as it was written at the time, except where the README notes a fix).
+
 Adaptive traffic signal timing from camera snapshots. A YOLOv5 detector counts the vehicles waiting at each lane of a four way junction, and the green time given to that lane is computed from those counts, so a lane with more traffic gets a longer green and an empty lane gets a short one. Built in May 2021 as a team project (Ansh Singh, Paras Arora, Pratyaksh Chanda, Shreshth Mehrotra) at IIT Roorkee.
 
 ## What it does
